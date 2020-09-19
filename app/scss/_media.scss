@@ -386,15 +386,16 @@
     .reviews__img{
         width: 90%;
     }
-}
-
-@media (max-width: 342px) {
     .slider__box{
         text-align: right;
     }
     .slider .slider__box {
         bottom: 40px;
     }
+}
+
+@media (max-width: 342px) {
+    
     .slick-dots {
         bottom: 130px;
         left: calc(50% - 67.5px);
