@@ -1,0 +1,352 @@
+@media (max-width: 1120px) {
+    .slider .slider__box {
+        right: 60px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .contant__wrapper {
+        flex-wrap: wrap;
+    }
+    .contant-img-2 {
+        display: none;
+    }
+    .contant__img-box {
+        margin: 0 auto;
+    }
+    .contant__text-box {
+        padding-left: 20px;
+    }
+    .title {
+        letter-spacing: 2px;
+    }
+}
+
+
+
+@media (max-width: 950px) {
+    .gallery__wrapper {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+    }
+    .gallery__item-img {
+        max-width: 100%;
+    }
+    .gallery__item-text {
+        position: relative;
+        height: 110px;
+    }
+    .shop__slider.slick-initialized.slick-slider.slick-dotted {
+        margin: 0 auto;
+    }
+    .shop__slider-name {
+        padding-bottom: 30px;
+        &::after {
+            bottom: 0px;
+            right: 0;
+            left: 0;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .header__menu {
+        display: none;
+        background-color: #1e2633;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        text-align: center;
+        
+        ul{
+            display: inline-block;
+            margin: 0 auto;
+            width: 100%;
+        }
+        li + li {
+            padding-left: 0px;
+        } 
+        a{
+            display: block;
+            padding: 20px 0;
+            border-bottom: 1px solid #fff;
+            color: #fff;
+            letter-spacing: 1px;
+        }
+    }
+    .menu__btn{
+        display: block;
+        width: 30px;
+        cursor: pointer;
+        div{
+            background-color: #1e2633;
+            height: 3px;
+            & + div{
+                margin-top: 5px;
+            }
+        }
+    }
+    .slider__inner {
+        img {
+            display: none;
+        }
+    }
+    .menu__wrapper {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 100px;
+    }
+    .menu__text-box {
+        order: 1;
+        margin: 0 auto;
+    }
+    .menu__img-box {
+        text-align: center;
+        position: relative;
+        .menu-img-1{
+            display: none;
+        }
+    }
+    .menu__text-box {
+        max-width: 375px;
+        width: 100%;
+    }
+   
+    .menu__list {
+        margin-top: 100px;
+    }
+
+    .menu__item-img {
+        padding: 0 50px 45px 50px;
+    }
+    .menu__item-text {
+        padding-right: 50px;
+    }
+    .menu__item-price {
+        padding-right: 40px;
+        &::before {
+            right: 26px;
+        }
+    }
+    .contact__details {
+        max-width: 240px;
+    }
+}
+
+@media (max-width: 826px) {
+    .contant__text-box {
+        max-width: 450px;
+        width: 100%;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    .reviews__inner {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    .reviews__text {
+        text-align: center;
+    }
+    .reviews__text-box {
+        width: 100%;
+        text-align: center;
+        height: 200px;
+        max-width: 826px;
+        margin-bottom: 100px;
+    }
+    .reviews__text-box .reviews__text {
+        right: 0;
+        left: 0;
+    }
+    .contant__text-box {
+        max-width: 370px;
+        padding-left: 15px;
+    }
+    .reservation__form-inner {
+        display: inline-block;
+        text-align: center;
+        input, select {
+            margin-bottom: 30px;
+        }
+    }
+    .contact__inner {
+        flex-wrap: wrap;
+    }
+    .contact__details {
+        max-width: 840px;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 650px) {
+    .shop__slider-img {
+        width: 550px;
+        height: 400px;
+    }
+    .contact__message-inner {
+        flex-wrap: wrap;
+    }
+    .contact__message-item {
+        width: 100%;
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .slider .slider__box {
+        bottom: 160px;
+        right: 30px;
+        padding-left: 15px;
+    }
+    .slider__title {
+        font-size: 40px;
+    }
+
+    .menu__items {
+        position: relative;
+        margin-bottom: 50px;
+    }
+    .menu__item-price {
+        order: -1;
+        display: inline-block;
+        position: absolute;
+        top: 110px;
+        left: 70px;
+    }
+    .tabs {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .tab + .tab {
+        padding-left: 60px;
+    }
+    .reservation__form-inner {
+        width: 100%;
+        .reservation-date,
+        .reservation-time,
+        .reservation-person {
+            width: 100%;
+            margin-right: 0px;
+        }
+    }
+    .shop__slider-img {
+        width: 500px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 550px) {
+    .shop__slider-img {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 470px) {
+    .contant-img-1 {
+        width: 300px;
+        height: 200px;
+    }
+    .contant__img-box {
+        height: 200px;
+    }
+    .menu__item-img {
+        padding: 0px 20px 20px 10px;
+    }
+    .menu__item-price {
+        left: 40px;
+    }
+    .menu__item-text {
+        padding-right: 10px;
+    }
+    .tab + .tab {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 450px) {
+    .slider-img {
+        max-height: 450px;
+    }
+    .menu-img-2{
+        max-width: 300px;
+        height: 200px;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .menu__category {
+        padding-left: 0px;
+        text-align: center;
+    }
+    .tab + .tab {
+        padding-left: 30px;
+    }
+    
+    .menu__list {
+        margin-top: 20px;
+    }
+    .footer__wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer__logo {
+        padding-right: 30px;
+        margin-bottom: 0px;
+    }
+    .footer__social {
+        margin-bottom: 50px;
+    }
+    .shop__slider-img {
+        width: 350px;
+        height: 260px;
+    }
+}
+
+@media (max-width: 375px) {
+    .menu__item-img {
+        padding: 0px 15px 20px 0px;
+    }
+    .menu__item-text {
+        padding-right: 0px;
+    }
+    .tab + .tab {
+        padding-left: 20px;
+    }
+    .menu__category {
+        padding-top: 20px;
+    }
+    .contant__title.title {
+        font-size: 40px;
+    }
+    .contant__text-box {
+        padding-left: 0px;
+    }
+    .reviews__text-box .reviews__name {
+        top: calc(50% + 75px);
+    }
+    .reviews__text-box {
+        margin-bottom: 120px;
+    }
+    .shop__slider-img {
+        width: 300px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 342px) {
+    .slick-dots {
+        bottom: 130px;
+        left: calc(50% - 67.5px);
+    }
+}
+
+@media (min-width: 901px){
+    .header__menu{
+        display: block !important;
+    }
+}

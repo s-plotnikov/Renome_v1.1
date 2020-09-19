@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Renome</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/libs.min.css" />
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__top" id="head">
+      <div class="header__inner">
+        <a href="#" class="header__logo">
+          <img src="../images/logo.png" alt="">
+        </a>
+        <div class="header__menu-wrapper">
+          <div class="menu__btn">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+          <nav class="header__menu">
+            <ul>
+              <li><a href="#head">Главная</a></li>
+              <li><a href="#about">О нас</a></li>
+              <li><a href="#menu">Меню</a></li>
+              <li><a href="#reservation">Забронировать</a></li>
+              <li><a href="#shop">Магазин</a></li>
+              <li><a href="#contact">Контакты</a></li>
+            </ul>
+          </nav>
+          <a href="#" class="header__search-btn icon-search"></a>
+          <a href="#" class="header__basket-btn icon-shopping-cart"> 2</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="slider">
+    <div class="slider__inner">
+      <div class="slider-img" style="background-image: url(images/slider1.jpg);"></div>
+      <div class="slider-img" style="background-image: url(images/slider2.jpg);"></div>
+      <div class="slider-img" style="background-image: url(images/slider3.jpg);"></div>
+    </div>
+    <div class="container">
+      <div class="slider__box">
+        <div class="slider__title">сделано с любовью</div>
+        <div class="slider__text">для вас</div>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="container">
+      <div class="contant__wrapper">
+        <div class="contant__img-box">
+          <img class="contant-img-1" src="images/about-1.jpg" alt="">
+          <img class="contant-img-2" src="images/about-2.jpg" alt="">
+        </div>
+        <div class="contant__text-box">
+          <div class="contant__title title">О нас</div>
+          <div class="contant__slogan slogan">мы создаём вкусные воспоминания</div>
+          <div class="contant__text text">
+            Renome - это знаменитый ресторан, который восхищает чувством элегантной атмосферы, высоким сервисом
+            обслуживания и восхитительным меню. Наш интерьер может похвастаться современной мебелью и отделкой,
+            великолепной архитектурой. Renome предлагает комнату для частных обедов, где гости могут насладиться
+            креативными блюдами и роскошными десертами. Это один из немногих ресторанов Санкт-Петербурга, получивший
+            желанный 3-звездочный рейтинг Мишлен.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="gallery">
+    <div class="container">
+      <div class="gallery__wrapper">
+        <div class="gallery__inner">
+          <div class="gallery__item-text">
+            <div class="gallery__title title">Галерея</div>
+            <div class="gallery__slogan slogan">наша фотогалерея</div>
+          </div>
+        </div>
+        <div class="gallery__item-img">
+          <img src="images/gallery/gallery1.jpg" alt="">
+          <img src="images/gallery/gallery2.jpg" alt="">
+          <img src="images/gallery/gallery3.jpg" alt="">
+          <img src="images/gallery/gallery4.jpg" alt="">
+          <img src="images/gallery/gallery5.jpg" alt="">
+          <img src="images/gallery/gallery6.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu">
+    <div class="container">
+      <div class="menu__wrapper">
+        <div class="menu__img-box">
+          <img class="menu-img-1" src="images/menu/menu1.jpg" alt="">
+          <img class="menu-img-2" src="images/menu/menu2.jpg" alt="">
+        </div>
+        <div class="menu__text-box">
+          <div class="menu__text-item">
+            <div class="menu__title title">Меню</div>
+            <div class="menu__slogan slogan">вкусно и красиво</div>
+            <div class="menu__text text">
+              В нашем меню вы найдете большое разнообразие вкусных блюд, которые удовлетворят потребности и вкусы
+              каждого. Мы используем ингредиенты высочайшего качества для всех наших блюд.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu__list" id="menu">
+    <!-- <div class="container"> -->
+      <div class="menu__tabs">
+        <div class="tabs">
+          <span class="tab active" data-id="1">завтрак</span>
+          <span class="tab" data-id="2">ланч</span>
+          <span class="tab" data-id="3">напитки</span>
+          <span class="tab" data-id="4">десерты</span>
+        </div>
+        <div class="tab__content">
+
+          <div class="tab-item active-tab" id="1">
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/yaichnicza.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Яичница с томатами</div>
+                <div class="menu__item-descr"></div>
+              </div>
+              <div class="menu__item-price">160</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/porridge.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Овсяная каша</div>
+                <div class="menu__item-descr">Овсяная каша на молоке со свежими ягодами и фруктами</div>
+              </div>
+              <div class="menu__item-price">160</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/egg-bennedickt.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Яйцо Бенедикт с копчёной форелью и шпинатом</div>
+                <div class="menu__item-descr">Яйцо пашот, галанский соус, копчёная форель, булочка бриошь, шпинат свежий, свежий огурец</div>
+              </div>
+              <div class="menu__item-price">290</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/omlet.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Омлет с сыром</div>
+                <div class="menu__item-descr"></div>
+              </div>
+              <div class="menu__item-price">180</div>
+            </div>
+          </div>
+
+          <div class="tab-item" id="2">
+            <div class="menu__category">Закуски</div>
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Chicken_wings.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Куринные крылышки</div>
+                <div class="menu__item-descr">
+                  Крылышки гриль и фирменный соус с добавлением перца чилли и свежего имбиря.
+                </div>
+              </div>
+              <div class="menu__item-price">540</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Dumplings.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Пельмешки</div>
+                <div class="menu__item-descr">Маленькие пельмени, наполненные пряным ягненком. Подаются с томатным
+                  соусом
+                  и
+                  греческим йогуртом.</div>
+              </div>
+              <div class="menu__item-price">340</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/French_onion_soup.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Французский луковый суп</div>
+                <div class="menu__item-descr">Французский луковый суп очень вкусный и сытный, а сырные гренки делают его
+                  особенным!</div>
+              </div>
+              <div class="menu__item-price">350</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Mini_chilli_pretzels.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Мини чили крендели</div>
+                <div class="menu__item-descr">Пикантные крендели на пивном тесте с добавлением перца.</div>
+              </div>
+              <div class="menu__item-price">130</div>
+            </div>
+
+            <div class="menu__category">Горячие блюда</div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Atlantic_Salmon.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Атлантический лосось</div>
+                <div class="menu__item-descr">
+                  Лосось с греческим рисовым салатом.
+                </div>
+              </div>
+              <div class="menu__item-price">440</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Fish_tacos.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Рыбное тако</div>
+                <div class="menu__item-descr">Рыба - это полезная и очень вкусная начинка для тако, с низким содержанием
+                  жира.</div>
+              </div>
+              <div class="menu__item-price">330</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Sesame_Tuna.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Тунец в кунжуте</div>
+                <div class="menu__item-descr">Семена кунжута образуют вкусную корочку поверх тунца, блюдо богато
+                  кальцием,
+                  медью и магнием.</div>
+              </div>
+              <div class="menu__item-price">300</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Parmesan_chicken.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Курица пармезан</div>
+                <div class="menu__item-descr">Этот хрустящий цыпленок имеет потрясающий вкус в сочетании со свежими
+                  ароматами цуккини, мяты и оливок.</div>
+              </div>
+              <div class="menu__item-price">500</div>
+            </div>
+
+            <div class="menu__category">Фирменные блюда</div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Seared_scallops.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Жаренные гребешки</div>
+                <div class="menu__item-descr">
+                  Отвлекитесь от повседневного шума и суеты с этим экзотическим завтраком, который удовлетворит ваши
+                  вкусовые рецепторы.
+                </div>
+              </div>
+              <div class="menu__item-price">380</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Poached_salmon.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Вареный лосось</div>
+                <div class="menu__item-descr">Блюдо определенно для гурманов, пашот из лосося с потрясающим соусом.
+                </div>
+              </div>
+              <div class="menu__item-price">930</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Green_curry.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Зеленый карри</div>
+                <div class="menu__item-descr">Этот баланс сладких, кислых и соленых ароматов является отличительной
+                  чертой
+                  тайской кухни.</div>
+              </div>
+              <div class="menu__item-price">770</div>
+            </div>
+
+            <div class="menu__category">Салаты</div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Lobster_salad.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Салат с лобстером</div>
+                <div class="menu__item-descr">
+                  Салат из лобстера со сливочным маслом и небольшим оттенком майонеза, чтобы вы могли расспробовать
+                  сладкое мясо омаров.
+                </div>
+              </div>
+              <div class="menu__item-price">630</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Chicken_orange_salad.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Салат с курицей и апельсином</div>
+                <div class="menu__item-descr">Этот куриный салат с сочными апельсинами и йогуртовой заправкой -
+                  удовольствие на любом весеннем столе.</div>
+              </div>
+              <div class="menu__item-price">850</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Winter_salad.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Зимний салат</div>
+                <div class="menu__item-descr">Это простой зимний салат, свежий и хрустящий.</div>
+              </div>
+              <div class="menu__item-price">420</div>
+            </div>
+          </div>
+
+          <div class="tab-item" id="3">
+            <div class="menu__category">Холодные напитки</div>
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Bamblcoffe.jpg" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Бамбл кофе</div>
+                <div class="menu__item-descr">
+                  Апельсиновый фреш, двойной эспрессо, кленовый сироп, лед.
+                </div>
+              </div>
+              <div class="menu__item-price">180</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Mochito.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Мохито классический</div>
+                <div class="menu__item-descr"></div>
+              </div>
+              <div class="menu__item-price">170</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Orange.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Апельсиновый сок</div>
+                <div class="menu__item-descr"></div>
+              </div>
+              <div class="menu__item-price">150</div>
+            </div>
+
+            <div class="menu__category">Кофе</div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Americano.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Американо</div>
+                <div class="menu__item-descr"></div>
+              </div>
+              <div class="menu__item-price">130</div>
+            </div>
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Cappuchino.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Капучино</div>
+                <div class="menu__item-descr"></div>
+              </div>
+              <div class="menu__item-price">160</div>
+            </div>
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/Latte.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Латте классический</div>
+                <div class="menu__item-descr"></div>
+              </div>
+              <div class="menu__item-price">160</div>
+            </div>
+
+            <div class="menu__category">Чай</div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/tea.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Чай травяной</div>
+                <div class="menu__item-descr">
+                </div>
+              </div>
+              <div class="menu__item-price">170</div>
+            </div>
+          </div>
+
+          <div class="tab-item" id="4">
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/jekler.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Эклер со сливочным кремом</div>
+                <div class="menu__item-descr"></div>
+              </div>
+              <div class="menu__item-price">85</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/apelsinovoe-zhele.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Апельсиновое желе</div>
+                <div class="menu__item-descr">
+                  Желе из апельсинового фреша с добавлением яблока
+                </div>
+              </div>
+              <div class="menu__item-price">165</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/napoleon.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Наполеон</div>
+                <div class="menu__item-descr">Слоеный торт с заварным кремом</div>
+              </div>
+              <div class="menu__item-price">195</div>
+            </div>
+
+            <div class="menu__items">
+              <div class="menu__item-img">
+                <img src="images/menu/fondan.png" alt="">
+              </div>
+              <div class="menu__item-text">
+                <div class="menu__item-title">Шоколадный Фондан</div>
+                <div class="menu__item-descr"></div>
+              </div>
+              <div class="menu__item-price">255</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    <!-- </div> -->
+  </section>
+  <section class="reviews">
+    <div class="container">
+      <div class="reviews__inner">
+        <div class="reviews__text-box">
+          <div class="reviews__text">"Идеальное место для романтических встреч"</div>
+          <div class="reviews__name">Дарья Цивина</div>
+        </div>
+        <img class="reviews__img" src="images/reviews_img.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="reservation" id="reservation">
+    <div class="container">
+      <div class="contant__wrapper">
+        <div class="contant__img-box">
+          <img class="contant-img-1 reservation-img-1" src="images/reserv-2.jpg" alt="">
+          <img class="contant-img-2 reservation-img-2" src="images/reserv-1.jpg" alt="">
+        </div>
+        <div class="contant__text-box">
+          <div class="contant__title title">Бронирование</div>
+          <div class="contant__slogan slogan">забронируйте столик в нашем ресторане сейчас!</div>
+          <div class="contant__text text">
+            Забронируйте столик с помощью нашей формы, и мы тут же отправим вам подтверждение по электронной почте. Мы
+            также позвоним вам в день бронирования, чтобы подтвердить ваше бронирование. Если вы не получили электронное
+            письмо или не получили ответа от ресторана, мы рекомендуем позвонить, чтобы подтвердить ваше бронирование <a
+              href="tel=79397775533">(+7 939 777 55 33)</a>.
+          </div>
+        </div>
+      </div>
+      <div class="reservation__form">
+        <div class="reservation__form-title">зарезервировать</div>
+        <div class="reservation__form-inner">
+          <input class="reservation-date" type="date">
+          <input class="reservation-time" type="time">
+          <select class="reservation-person" name="Тема" size="1">
+            <option disabled selected>Количество персон</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+          </select>
+        </div>
+        <div class="reservation__form-btn">
+          <button>выбрать стол</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="shop" id="shop">
+    <div class="container">
+      <div class="gallery__wrapper shop__wrapper">
+        <div class="gallery__inner">
+          <div class="gallery__item-text">
+            <div class="gallery__title title">Блюдо дня</div>
+          </div>
+        </div>
+        <div class="shop__slider">
+          <div class="shop__slider_item">
+            <img class="shop__slider-img" src="images/shop_slider/shop_slide1.jpg" alt="">
+            <div class="shop__slider-price">290</div>
+            <div class="shop__slider-name">Домашний багет</div>
+          </div>
+          <div class="shop__slider_item">
+            <img class="shop__slider-img" src="images/shop_slider/shop_slide2.jpg" alt="">
+            <div class="shop__slider-price">420</div>
+            <div class="shop__slider-name">Греческий салат с морепродуктами</div>
+          </div>
+          <div class="shop__slider_item">
+            <img class="shop__slider-img" src="images/shop_slider/shop_slide3.jpg" alt="">
+            <div class="shop__slider-price">250</div>
+            <div class="shop__slider-name">Сицилийский яблочный пирог</div>
+          </div>
+          <div class="shop__slider_item">
+            <img class="shop__slider-img" src="images/shop_slider/shop_slide4.jpg" alt="">
+            <div class="shop__slider-price">450</div>
+            <div class="shop__slider-name">Каре ягненка с овощами</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="menu__wrapper">
+        <div class="menu__img-box">
+          <img class="menu-img-1" src="images/contact-1.jpg" alt="">
+          <img class="menu-img-2" src="images/contact-2.jpg" alt="">
+        </div>
+        <div class="menu__text-box">
+          <div class="menu__text-item">
+            <div class="menu__title title">Контакты</div>
+            <div class="menu__slogan slogan">мы рады приветствовать вас в нашем ресторане</div>
+            <div class="menu__text text">
+              Пожалуйста, не стесняйтесь обращаться к нам с любыми вопросами или чтобы сделать предварительный заказ.
+              Если никто не может принять ваш звонок, пожалуйста, оставьте сообщение. Мы свяжемся с вами как можно
+              скорее.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact__inner">
+        <div class="contact__message">
+          <h3>Написать сообщение</h3>
+          <div class="contact__message-inner">
+            <div class="contact__message-item">
+              <input type="text" placeholder="Имя*" required>
+              <input type="text" placeholder="Email*" required>
+            </div>
+            <div class="contact__message-item">
+              <input type="text" placeholder="Фамилия*" required>
+              <select name="Тема" size="1">
+                <option disabled selected>Тема</option>
+                <option>Забронировать столик</option>
+                <option>Отзыв и предложения</option>
+                <option>Хочу у вас работать</option>
+                <option>Другое</option>
+              </select>
+            </div>
+          </div>
+          <div class="contact__message-inner">
+            <input type="text" placeholder="Сообщение">
+            <button>отправить</button>
+          </div>
+        </div>
+        <div class="contact__details">
+          <div class="contact__adress">
+            <h3>Контакты</h3>
+            <div class="contact__wrapper">
+              <div class="contact__adress-title">
+                Адрес
+              </div>
+              <div class="contact__adress-text">
+                Берёзовая 3, Санкт-Петербург
+              </div>
+              <div class="contact__adress-title">
+                Телефон
+              </div>
+              <div class="contact__adress-text">
+                <a href="tel=79397775533">+7 939 777 55 33</a>
+              </div>
+              <div class="contact__adress-title">
+                email
+              </div>
+              <div class="contact__adress-text">
+                reservation@renome.com
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <div class="footer__logo">
+                <a href=""><img src="images/logo-footer.png" alt=""></a>
+            </div>
+            <div class="footer__social">
+                <p>Мы в соцсетях:</p>
+                <a href="#"><img src="images/fb.png" alt=""></a>
+                <a href="#"><img src="images/twitter.png" alt=""></a>
+                <a href="#"><img src="images/gplus.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/libs.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
