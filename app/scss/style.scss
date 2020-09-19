@@ -94,19 +94,21 @@
     font-size: 30px;
     letter-spacing: 5px;
 }
+.slider__inner{
+        .slick-arrow.slick-prev {
+        left: 35px;
+        bottom: 50px; 
+        position: absolute;
+        z-index: 19;
+    }
+    .slick-arrow.slick-next {
+        left: 108px;
+        bottom: 50px; 
+        position: absolute;
+        z-index: 19;
+    }
+}
 
-.slick-arrow.slick-prev {
-    left: 35px;
-    bottom: 50px; 
-    position: absolute;
-    z-index: 19;
-}
-.slick-arrow.slick-next {
-    left: 108px;
-    bottom: 50px; 
-    position: absolute;
-    z-index: 19;
-}
 .slick-arrow {
     border: none; 
     background-color: rgba($color: #000000, $alpha: 0);
