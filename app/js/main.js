@@ -11,14 +11,14 @@ $(function(){
         arrows: true,
         prevArrow: '<button class="slick-arrow slick-prev"><img src="images/slider-left.png" alt=""></button>',
         nextArrow: '<button class="slick-arrow slick-next"><img src="images/slider-right.png" alt=""></button>',
-        responsive: [
-          {
-            breakpoint: 900,
-            settings: {
-              arrows: false,
-            }
-          },
-        ]
+        // responsive: [
+        //   {
+        //     breakpoint: 900,
+        //     settings: {
+        //       arrows: false,
+        //     }
+        //   },
+        // ]
       });
 
       $('.shop__slider').slick({
