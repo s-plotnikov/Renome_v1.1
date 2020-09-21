@@ -100,12 +100,14 @@
         bottom: 50px; 
         position: absolute;
         z-index: 19;
+        cursor: pointer;
     }
     .slick-arrow.slick-next {
         left: 108px;
         bottom: 50px; 
         position: absolute;
         z-index: 19;
+        cursor: pointer;
     }
 }
 
@@ -220,12 +222,22 @@
 .gallery__item-img {
     flex-wrap: wrap;
     max-width: 500px;
-    img{
-        padding: 7px;
-    }
+}
+.scale {
+    display: inline-block;
+    overflow: hidden;
+}
+.scale img {
+    transition: 1s;
+    display: block;
+}
+.scale img:hover{
+    transform: scale(1.2);
 }
 .gallery__inner{
     position: relative;
+    margin-bottom: 15px;
+
 }
 .gallery__item-text {
     width: 250px;
@@ -285,11 +297,12 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 12px;
-    line-height: 0;
+    line-height: 1;
     color: #1e2633;
     text-transform: uppercase;
     cursor: pointer;
     padding-bottom: 20px;
+    transition: all .3s;
     & + .tab{
         padding-left: 80px;
     }
@@ -298,6 +311,9 @@
     }
     &__content{
         margin-top: 50px;
+    }
+    &:hover{
+        color: #985e5b;
     }
 }
 
@@ -427,6 +443,10 @@
     .reservation-img-2 {
         top: 180px;
     }
+}
+
+.contant-img-2.reservation-img-2{
+    animation-delay: .3s;
 }
 
 .contant__text {
@@ -566,6 +586,7 @@
         left: -29px;
         border: none;
         z-index: 19;
+        cursor: pointer;
     }
 
     .slick-arrow.slick-next {
@@ -575,6 +596,7 @@
         top: 205px;
         left: -29px;
         border: none;
+        cursor: pointer;
     }
 }
 
@@ -637,7 +659,12 @@
         margin-left: 50px;
         margin-bottom: 30px;
         margin-right: 15px;
+        cursor: pointer;
     }
+}
+
+.menu-img-1.contact{
+    animation-delay: 0.3s;
 }
 
 .contact__message-item {
